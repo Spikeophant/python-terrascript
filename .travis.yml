@@ -22,6 +22,7 @@ env:
 - TERRAFORM=0.11.11
 - TERRAFORM=0.11.12
 - TERRAFORM=0.11.13
+- TERRAFORM=0.12.0-beta1
 cache: pip
 install:
 - "(wget https://releases.hashicorp.com/terraform/${TERRAFORM}/terraform_${TERRAFORM}_linux_amd64.zip
